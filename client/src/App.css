@@ -1,0 +1,279 @@
+.App {
+  text-align: center;
+  max-width: 375px;
+  max-height: 667px;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+  overflow-x: auto;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.nav a {
+  color: white;
+}
+
+.nav a:hover {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.projects-container {
+  display: flex;
+  padding: 5vh 5vw;
+}
+
+.projects-container > * {
+  flex: 1;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: local('Source Sans Pro'), url('./images/FontsFree-Net-SFProDisplay-Regular.ttf') format('ttf');
+}
+
+
+.container-index{
+  background-image: url('./images/T0_1 Onboarding (1).png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 100vh;
+}
+
+.sign-up{
+  background-image: url('./images/T0_2 Create an Account.png');
+  /* background-attachment: fixed; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 100vh;
+
+}
+.btn-email{
+  height: 46px;
+  width: 316px;
+  left: 29px;
+  top: 281px;
+  border-radius: 10px;
+
+}
+
+.sign-up-container{
+  position: absolute;
+  width: 316px;
+  height: 46px;
+  left: 29px;
+  top: 281px;
+}
+
+.btn-submit{
+
+height: 46px;
+width: 316px;
+left: 29px;
+top: 281px;
+border-radius: 10px;
+
+  /* Rectangle 33 */
+/* position: absolute; */
+width: 316px;
+height: 72px;
+left: 29px;
+top: 483px;
+background: #F2994A;
+border-radius: 20px;
+border-color: transparent;
+
+}
+
+.btn-submit:hover{
+  background: #f5aa68 !important;
+  border-color: transparent !important;
+
+}
+
+.btn-started{
+
+left: 30.390625px;
+margin-top: 483px;
+border-radius: 20px;
+
+/* position: absolute; */
+width: 316px;
+height: 72px;
+left: 30.39px;
+top: 483px;
+
+/* CTA */
+
+background: #F2994A;
+border-radius: 20px;
+border-color: transparent;
+margin-top: 2;
+
+}
+
+.btn-started:hover{
+  background: #f5aa68 !important;
+  border-color: transparent !important;
+
+}
+
+.btn-log-in{
+position: absolute;
+width: 227px;
+height: 20px;
+left: 74.39px;
+top: 572px;
+
+position: absolute;
+width: 227px;
+height: 20px;
+left: 74.39px;
+top: 572px;
+
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+
+}
+
+.slide1{
+  background-image: url('./images/T0_2 Create an Account (2).png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 100vh;
+}
+
+.slide2{
+  background-image: url('./images/T0_2 Create an Account (3).png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 100vh;
+}
+.slide3{
+  background-image: url('./images/T0_2 Create an Account (4).png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 100vh;
+}
+
+.skip{
+  position: absolute;
+width: 63px;
+height: 22px;
+left: 305px;
+top: 93px;
+
+/* Body */
+
+/* font-family: SF Pro Text; */
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 22px;
+/* identical to box height, or 129% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.408px;
+
+/* White */
+
+color: #FFFFFF;
+}
+
+.next-btn{
+  
+position: absolute;
+width: 316px;
+height: 40px;
+left: 29px;
+top: 551px;
+
+/* CTA */
+
+background: #F2994A;
+border-radius: 20px;
+padding-top: 5px;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 28px;
+/* identical to box height */
+
+letter-spacing: 0.01em;
+
+/* White */
+
+color: #FFFFFF;
+
+}
+.item{
+  margin: 15px;
+  padding: 2px;
+}
+
+.item:hover{
+ opacity: 0.8;
+}
+
+.add-record{
+position: absolute;
+width: 60px;
+height: 60px;
+left: 300px;
+top: 471px;
+margin-right: 10px;
+}
+
+.add-record:hover{
+  opacity: 0.8;
+  }
