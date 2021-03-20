@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/microsoft-case/static/css/main.3070bcec.chunk.css",
+    "main.js": "/microsoft-case/static/js/main.99bf9e22.chunk.js",
+    "main.js.map": "/microsoft-case/static/js/main.99bf9e22.chunk.js.map",
+    "runtime-main.js": "/microsoft-case/static/js/runtime-main.8ce0f6fa.js",
+    "runtime-main.js.map": "/microsoft-case/static/js/runtime-main.8ce0f6fa.js.map",
+    "static/css/2.95f25948.chunk.css": "/microsoft-case/static/css/2.95f25948.chunk.css",
+    "static/js/2.82851225.chunk.js": "/microsoft-case/static/js/2.82851225.chunk.js",
+    "static/js/2.82851225.chunk.js.map": "/microsoft-case/static/js/2.82851225.chunk.js.map",
+    "static/js/3.7d77d0b4.chunk.js": "/microsoft-case/static/js/3.7d77d0b4.chunk.js",
+    "static/js/3.7d77d0b4.chunk.js.map": "/microsoft-case/static/js/3.7d77d0b4.chunk.js.map",
+    "index.html": "/microsoft-case/index.html",
+    "static/css/2.95f25948.chunk.css.map": "/microsoft-case/static/css/2.95f25948.chunk.css.map",
+    "static/css/main.3070bcec.chunk.css.map": "/microsoft-case/static/css/main.3070bcec.chunk.css.map",
+    "static/js/2.82851225.chunk.js.LICENSE.txt": "/microsoft-case/static/js/2.82851225.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/microsoft-case/static/media/T0_2 Create an Account.8da797d4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8ce0f6fa.js",
+    "static/css/2.95f25948.chunk.css",
+    "static/js/2.82851225.chunk.js",
+    "static/css/main.3070bcec.chunk.css",
+    "static/js/main.99bf9e22.chunk.js"
+  ]
+}
